@@ -1,10 +1,18 @@
-/**
- * Simple node js module to get distance between two coordinates.
- *
- * Heavily inspired by http://www.movable-type.co.uk/scripts/latlong.html
- *
- *
- */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
+/*                                                                                                */
+/*  Simple node js module to get distance between two coordinates.                                */
+/*                                                                                                */
+/*  Code transformed from Chris Veness example code - please refer to his website for licensing   */
+/*  questions.                                                                                    */
+/*                                                                                                */
+/*                                                                                                */
+/*  Latitude/longitude spherical geodesy formulae & scripts (c) Chris Veness 2002-2011            */
+/*   - www.movable-type.co.uk/scripts/latlong.html                                                */
+/*                                                                                                */
+/*                                                                                                */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
+
+ 
 
 /** Converts numeric degrees to radians */
 if(typeof(Number.prototype.toRad) === "undefined") {
