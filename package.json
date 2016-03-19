@@ -1,0 +1,20 @@
+{
+  "name": "distance.js",
+  "version": "1.0.0",
+  "description": "A simple module to calc distance between 2 points using coords. Originally cloned from https://gist.github.com/1604972.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:nesslopz/distance.js.git"
+  },
+  "keywords": ["distance", "coords", "calc", "latitude", "longitude"],
+  "author": "Ness López <n@wingo.io>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nesslopz/distance.js/issues"
+  },
+  "homepage": "https://github.com/nesslopz/distance.js"
+}
